@@ -1,0 +1,38 @@
+Deepfake Detection using CNNs
+Team Blackwing - Smart India Hackathon 2024
+Project Overview
+This project is focused on developing a real-time Deepfake detection system that identifies face-swapped videos using Convolutional Neural Networks (CNNs). The goal is to create a reliable solution that can differentiate between real and manipulated (fake) content with high accuracy.
+
+Problem Statement
+Problem Statement ID: 1683
+Title: Development of AI/ML-based solution for detecting face-swap-based deepfake videos
+Category: Software
+Goals
+Detect face-swapped Deepfake videos in real-time.
+Achieve a high level of accuracy in classifying real versus fake media.
+Utilize CNNs for effective feature learning and binary classification.
+Technical Approach
+Feature Learning:
+
+The model identifies distinguishing features between real and fake images using a triplet loss function, optimizing similarity and dissimilarity between images.
+Classification:
+
+A classifier analyzes the learned features and outputs whether the media is REAL or FAKE.
+Dataset:
+
+The model is trained on the DeepFake Detection Challenge (DFDC) dataset, a large dataset of real and fake images for robust performance.
+Preprocessing:
+
+Images undergo resizing, normalization, and augmentation to improve model performance during training.
+Feasibility
+CNNs offer strong accuracy (91% validation, 94% training accuracy) and are efficient enough for real-time applications.
+They are robust against variations in lighting and facial expressions, making them suitable for real-world deployment.
+However, challenges remain with detecting low-quality images or emerging manipulation techniques.
+Future Work
+Integrating multi-modal detection by combining audio and visual data to enhance performance, especially in difficult conditions.
+Continuously updating the model to stay ahead of new Deepfake manipulation techniques.
+Impact and Benefits
+Social Media Integrity: Helps prevent the spread of fake videos, creating a more trustworthy online environment.
+Enhanced Security: Can be used in security protocols to differentiate between real and AI-generated users.
+Personal Protection: Helps prevent identity theft and reputational harm from fake videos.
+Law Enforcement: Assists in identifying Deepfakes in legal cases, improving digital forensics.
